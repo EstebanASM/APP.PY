@@ -12,17 +12,20 @@ This is a simple Python application using `flask` that starts an HTTP server.Thi
 ### Cloning the Repository
 To clone the repository, use the following command:
 ```bash
-git clone https://github.com/Mates182/PY.PracticeTask.git
+git clone https://github.com/EstebanASM/APP.PY.git
 ```
 Navigate to the project directory:
 ```bash
-cd PY.PracticeTask
+cd APP.PY
 ```
 
 ### Running the Application Locally (Without Docker)
 #### Prerequisites
 - [Python](https://www.python.org/downloads/) must be installed on your machine.
-- Install the [fasthtml framework here.](https://docs.fastht.ml/)
+- Download all dependencies that flask is in:
+   ```bash
+   pip install requirements.txt
+   ```
 
 #### Running the Application
 1. Inside the project directory, start the server with:
@@ -31,14 +34,9 @@ cd PY.PracticeTask
    ```
 2. Access the application in your browser at:
    ```
-   http://localhost:8080
+   http://localhost:8083
    ```
 
 ### Running the Application with Docker
 
-To run the application with Docker, visit the Docker Hub repository for this project: [mates182/py_practicetask on Docker Hub](https://hub.docker.com/repository/docker/mates182/py_practicetask).
-
----
-
-## Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check out the [issues page](https://github.com/Mates182/PY.PracticeTask/issues) if you'd like to contribute.
+To run the application with Docker, visit the Docker Hub repository for this project: [estebanandres/hellopython on Docker Hub](https://hub.docker.com/repository/docker/estebanandres/hellopython/general).
