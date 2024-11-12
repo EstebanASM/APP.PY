@@ -34,7 +34,7 @@ cd APP.PY
    ```
 2. Access the application in your browser at:
    ```
-   http://localhost:8083
+   http://127.0.0.1:8083
    ```
 
 ### Running the Application with Docker
