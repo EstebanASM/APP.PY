@@ -30,7 +30,7 @@ cd APP.PY
 #### Running the Application
 1. Inside the project directory, start the server with:
    ```bash
-   python main.py
+   python app.py
    ```
 2. Access the application in your browser at:
    ```
